@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_left button{
+    border-radius: 10px;
+    background-color: #009FF5B5;
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 21px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+
+}
+header{
+    background: url(image\ 1\ \(1\).png) no-repeat center /cover;
+    height: 150vh;
+}
+.nav_left p{
+    font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #D5D5D6;
+text-shadow: 0px 4px 4px  #000000E0;
+
+}
+select{
+    font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: transparent;
+border: none;
+color: #D5D5D6;
+text-shadow: 0px 4px 4px  #00000040;
+}
+.hcaption{
+    font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: #FFC611;
+border: 11px solid #5A5555;
+width: 604px;
+height: 103px;
+border-radius: 50px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 163px;
+text-shadow: 0px 4px 4px  #0047FF;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    width: 361px;
+    height: 420px;
+    align-items: center;
+box-shadow: 8px 7px 20px 0px #FFFFFF;
+
+}
+.box p{
+    font-family: 'Roboto' ;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 15px;
+text-shadow: 0px 4px 4px  #FFC200;
+
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px;
+}
+body{
+    background-color: black;
+}
+.caption{
+    font-family: 'Roboto';
+font-weight: 600;
+font-style: SemiBold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #5A5555;
+text-shadow: 0px 4px 4px  #FFFFFF;
+margin-top: 61px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    height: 305px;
+    margin-top: 58px;
+}
+.box1 p{
+    color: white;
+    width: 663px;
+    font-family: 'Roboto';
+font-weight: 600;
+font-style: SemiBold;
+font-size: 27px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 104px;
+}
+.box1 button{
+    width: 278px;
+height: 61px;
+background-color: #FFC200;
+color: black;
+font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 27px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-shadow: 0px 4px 4px  #040404CF;
+box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+border: none;
+transition: 0.5s;
+}
+.box1 button:hover{
+    background-color: #535353;
+    color: white;
+    text-shadow: 0px 4px 4px  #040404CF;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    height: 305px;
+    margin-top: 168px;
+    margin-bottom: 82px;
+}
+.box2 p{
+    color: white;
+    width: 663px;
+    font-family: 'Roboto';
+font-weight: 600;
+font-style: SemiBold;
+font-size: 27px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 104px;
+}
+.box2 button{
+    width: 278px;
+height: 61px;
+background-color: #FFC200;
+color: black;
+font-family: 'Roboto';
+font-weight: 700;
+font-style: Bold;
+font-size: 27px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-shadow: 0px 4px 4px  #040404CF;
+box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+border: none;
+transition: 0.5s;
+}
+.box2 button:hover{
+    background-color: #535353;
+    color: white;
+    text-shadow: 0px 4px 4px  #040404CF;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+
+}
+.bg_footer{
+    background-color: #FFC611;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.footer_right{
+    display: flex;
+    gap: 30px;
+}
